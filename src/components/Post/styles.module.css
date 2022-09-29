@@ -105,7 +105,7 @@
     transition: all 0.1s;
 }
 
-.comment button[type=submit]:not:(disabled):hover {
+.comment button[type=submit]:not(:disabled):hover {
     background: var(--green-300);
 }
 
